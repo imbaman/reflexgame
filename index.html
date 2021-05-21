@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gra</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Framework game</h1>
+      <button class="btn" id="btn-start">play</button>
+    </div>
+
+    <div class="container">
+      <h1>Choose your enemy :</h1>
+      <ul class="enemy-list">
+        <li>
+          <button class="enemy-button">
+            <p>1</p>
+            <img src="./img/angular.svg" alt="jeden" />
+          </button>
+          <button class="enemy-button">
+            <p>1</p>
+            <img src="./img/React-icon.svg" alt="dwa" />
+          </button>
+          <button class="enemy-button">
+            <p>1</p>
+            <img src="./img/Svelte_Logo.svg" alt="trzy" />
+          </button>
+          <button class="enemy-button">
+            <p>1</p>
+            <img src="./img/Vue.js_Logo_2.svg" alt="cztery" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container game-container">
+      <h2 id="time"></h2>
+      <h2 id="score">score : 0</h2>
+      <!-- <div class="enemy">
+        <img src="./angular.svg" alt="" />
+      </div> -->
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
